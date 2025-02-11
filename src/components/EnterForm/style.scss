@@ -1,0 +1,13 @@
+.enter-form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  min-width: 300px;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.enter-form--input-wrapper:not(:last-child) {
+  margin-bottom: 20px;
+}

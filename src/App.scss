@@ -1,0 +1,12 @@
+.app {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--dark-green-color);
+
+  &.app__enter-form {
+    align-items: center;
+    justify-content: center;
+  }
+}

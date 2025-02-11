@@ -1,0 +1,55 @@
+:root {
+  --dark-green-color: #111b21;
+  --dark-green-btn-color: #00a884;
+  --header-bg-color: #202c33;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+// form
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ffffff;
+  transition: background-color 5000s ease-in-out 0s;
+  box-shadow: inset 0 0 20px 20px #23232329;
+}
+
+.form--input.standard {
+  .MuiFormLabel-root,
+  .MuiFormLabel-root.Mui-focused:not(.Mui-error) {
+    color: white;
+  }
+
+  .MuiInputBase-root:before,
+  .MuiInput-underline:after,
+  .MuiInputBase-root.MuiInput-root:hover:before {
+    border-color: white;
+  }
+
+  .MuiInputBase-input.MuiInput-input {
+    color: white;
+  }
+}
+
+.MuiButtonBase-root.MuiButton-root.green-btn {
+  background: var(--dark-green-btn-color);
+}
