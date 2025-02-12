@@ -1,11 +1,11 @@
 import { SubmitHandler, useForm } from "react-hook-form";
+import { KeyboardEvent } from "react";
 import { Button, TextField } from "@mui/material";
 
 import { useAppDispatch } from "@/store";
 import { sendMessage } from "@/store/slices/appSlice";
 
 import "./style.scss";
-import { KeyboardEvent, KeyboardEventHandler } from "react";
 
 type FormValues = {
   message: string;
